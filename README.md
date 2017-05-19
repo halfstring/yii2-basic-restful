@@ -60,4 +60,6 @@ $this->batchInsert(\app\models\User::tableName(), $cols, $rows);
 
 - GET http://restful.api.com/user/search?keyword=张  # 用户检索 
 
-* 该库为文章[yii2-restful](http://www.halfstring.com/2017/05/19/yii2-restful/)辅助库
+## 文章出处
+
+ 该库为文章[yii2-restful](http://www.halfstring.com/2017/05/19/yii2-restful/)辅助库
