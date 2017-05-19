@@ -44,7 +44,7 @@ $this->batchInsert(\app\models\User::tableName(), $cols, $rows);
 - 安装postman 调试如下接口
 
 
-- GET http://restful.api.com/user 		#用户列表
+- GET http://restful.api.com/user 		#用户列表, 支持分页，形如：http://restful.api.com/user?page=2
 - GET http://restful.api.com/user/2 	#用户2明细
 - POST http://restful.api.com/user 		#用户新建
 - PUT http://restful.api.com/user/2 	#用户修改
