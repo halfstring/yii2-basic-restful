@@ -10,7 +10,7 @@ Restfule Base On Yii2
 - cd yii2-basic-restful
 - cp vagrant/restful.conf  /etc/nginx/conf.d/  #根据实际请求修改 line 14-15
 - vi /etc/hosts  追加记录   127.0.0.1   restful.api.com
-- 安装composer 并设置国内源 具体参照  [国内composer源]（https://pkg.phpcomposer.com/） 
+- 安装composer 并设置国内源 具体参照  [国内composer源](https://pkg.phpcomposer.com/)
 - composer require "fxp/composer-asset-plugin:^1.3.1"
 - composer install  ##可能慢些，耐心等待
 - 登录mysql，执行： create database db_restful; # 完成数据库的创建；
