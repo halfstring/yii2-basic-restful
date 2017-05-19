@@ -15,7 +15,7 @@ Restfule Base On Yii2
 - composer install  ##可能慢些，耐心等待
 - 登录mysql，执行： create database db_restful; # 完成数据库的创建；
 - vim  /data/yii2-basic-restful/config/db.php #修改数据库连接密码
-- ./yii migrate #并根据提示输入yes  完成数据表结构
+- ./yii migrate #并根据提示输入yes  完成数据表结构导入
 - ./yii gii/model --tableName=restful_user --modelClass=User #gii生成model： User
 - ./yii migrate/create loadUserData  # 在新生成的migrates/mxxxx_xxxx_loadUserData.php 中打开  function up 输入如下内容
 
