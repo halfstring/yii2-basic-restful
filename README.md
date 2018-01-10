@@ -3,7 +3,7 @@ Restful Base On Yii2
 
 
 
-## 命令行下以此执行以下命令
+## 命令行下依次执行以下命令
 
 - cd /data/
 - git clone https://github.com/halfstring/yii2-basic-restful
